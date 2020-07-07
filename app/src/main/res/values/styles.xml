@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/custom_btn</item>
+    </style>
+
+    <style name="custom_btn" parent="android:Widget">
+        <item name="android:background">@drawable/calculator_btn_change_state</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+    </style>
+
+</resources>
